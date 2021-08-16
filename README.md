@@ -1,7 +1,7 @@
 # Bootcamp-Backend-2021
 Back-end repository, Web Development Bootcamp, CESA IUST, Summer 2021
 
-Technology Stack: Django framework (Python)
+Technology Stack: **Django framework (Python)**
 
 Bootcamp mentors: 
 
