@@ -11,4 +11,4 @@ Bootcamp mentors:
 * Sina Shabani, CE BSc at IUST, 97
 * Sadra Khamoshi Far, CE BSc at IUST, 97
 * Masoud Golestaneh, CE BSc at IUST, 97
-* Alireza Bahrami, ...
+* Alireza Bahrami, CE BSc at ASMU, 98
