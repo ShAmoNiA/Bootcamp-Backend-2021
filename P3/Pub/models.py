@@ -67,6 +67,7 @@ class Publisher(models.Model):
 class Book(models.Model):
     book_id = models.AutoField(primary_key=True)
     book_name = models.CharField(max_length=20, unique=True)
+    author = models.ManyToManyField(Author, related_name='books')
     category = models.ManyToManyField(Category, related_name='books')
     publisher = models.ForeignKey(Publisher, related_name='books', on_delete=models.CASCADE)
     date_published = models.DateField()

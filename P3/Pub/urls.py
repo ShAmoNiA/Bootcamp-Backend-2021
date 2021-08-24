@@ -1,7 +1,8 @@
 from django.urls import path, include
 
+from Pub.views import pubs_view
+
 app_name = 'Pub'
 urlpatterns = [
-    # path('api/room-list/', chat.api.chat_properties_view, name='chat'),
-    # path('api/room-list/create', chat.api.create_room_view, name='create-room'),
+    path('api/', pubs_view, name='pub-api'),
 ]
